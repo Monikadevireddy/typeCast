@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Keyboard Analysis Reference &nbsp;|&nbsp; Tools for Web Developers</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+
+
+  <script type="text/javascript" src="js/tc/typeCast.js" charset='utf-8'></script>
+  <script type="text/javascript" src="js/app_init.js" charset='utf-8'></script>
+  
+
+
+
+
+</head>
+
+<body>
+
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper  amber darken-2">
+        <a href="" class="brand-logo center">typeCast</a>
+
+      </div>
+    </nav>
+  </div>
+
+
+  <ul id="tabs-swipe-demo" class="tabs center">
+    <li class="tab col s3">
+      <a class="active" href="#home">Home</a>
+    </li>
+    <li class="tab col s3">
+      <a href="#example">Example</a>
+    </li>
+    <li class="tab col s3">
+      <a href="#docs">API Documentation</a>
+    </li>
+  </ul>
+
+
+
+
+
+  <div id="home" class="col s12 amber lighten-5 page">
+    <div class="container">
+      <h5>typeCase Keyboard</h5>
+      <p> typeCast is a simple keyboard built for multilanguage support. Currently it supports russian but can be extensable
+        to any language.</p>
+      <p>More documentation will go here..</p>
+
+
+
+    </div>
+  </div>
+
+
+  <div id="example" class="col s12  light-green lighten-5 page">
+    <div class="container">
+      <h5>Implementation example</h5>
+      <h6>Assume that this page is one of the pages in the course which needs a user to type in russian.</h6>
+      <h6>Imagine that below are text input fields of your site (single-line and/or multi-line fields)</h6>
+
+      <br>
+      <br>
+
+      <div class="row">
+        <div class="input-field col s6">
+
+
+          <!-- input element 'firstName'  -->
+          <input id="firstName" type="text">
+
+
+          <label class="active" for="firstName">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="date" type="date" class="validate">
+          <label class="active" for="date">Today`s date</label>
+        </div>
+      </div>
+
+
+
+
+
+        <div class="section">
+          <h5>Question 1</h5>
+          <div class="row">
+            <div class="col s12">The name of a thing in russian is:
+              <div class="input-field inline">
+
+
+                <!-- input element 'input' -->
+                <input id="input" type="text">
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="section">
+          <h5>Question 2</h5>
+          <p> Write a sentence in russian below.</p>
+          <p lang="ru">Напишите предложение на русском языке ниже.</p>
+          <div class="col s6">
+
+            <!-- multiline text area element 'message' -->
+          
+            <textarea name="message" id="text" rows="15" cols="100"></textarea>
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+    </div>
+
+  </div>
+  <div id="docs" class="col s12 cyan lighten-5 page">
+    <div class="container">
+      <h5>typeCast API Documentation</h3>
+
+    </div>
+
+  </div>
+
+  </div>
+
+
+
+
+
+
+  <!--  
+
+  <table border=0>
+    <tr>
+      <td align=left valign=top>
+
+        &nbsp;
+        <BUTTON TYPE=button ID="vkb_callVirt" onclick="blur(); vkb_start(event);" title="Show/change layout; input by mouse">
+          <span>
+            <IMG SRC="vk/vkb/keys02.png">
+          </span>
+        </BUTTON>
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td bgColor=#CCCCCC style='PADDING-RIGHT: 4px; PADDING-LEFT: 4px;'>
+        <SMALL>"Cyrillic via
+          <u>keyboard</u>" mode
+          <B>:</B>
+        </SMALL>
+        <NOBR>
+          <SMALL>
+            <INPUT TYPE="radio" NAME="vkb_fromKbd" VALUE="On" CHECKED onclick="vkb_switchMode()">
+            <u>On</u>&nbsp;
+            <INPUT TYPE="radio" NAME="vkb_fromKbd" VALUE="Off" onclick="vkb_switchMode()">
+            <u>Off</u>
+        </NOBR>
+        </SMALL>
+        <BR>
+        <SMALL>or
+          <font color='#FF00FF'>if cursor in input area</font>, switch using
+          <script type="text/javascript">vkb_Init(); document.write(vkb_keySwitch);</script></SMALL>
+      </td>
+    </tr>
+  </table>
+ 
+
+  </FORM>
+  <P>
+ -->
+
+
+
+
+
+
+
+
+
+
+  </div>
+</body>
+
+</html>
