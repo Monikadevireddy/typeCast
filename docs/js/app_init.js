@@ -12,7 +12,7 @@ $(document).ready(function () {
   
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-      .register('serviceWorker.js',{scope:'./'})
+      .register('./sw.js',{scope:'./'})
       .then(function(registration) {console.log(registration);})
       .catch(function(err){console.log(err);})
   } 
