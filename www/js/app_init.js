@@ -4,10 +4,16 @@
 
 
 
-$(document).ready(function(){
-    $('ul.tabs').tabs();
-     console.log("Loaded all libraries .. SUCCESS");
-    
+$(document).ready(function () {
+  $('ul.tabs').tabs();
+  console.log("Loaded all libraries .. SUCCESS");
 
-     getTargetLayout("ru");
-  })
+  typeCast("ru");
+  
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('serviceWorker.js',{scope:'./'})
+      .then(function(registration) {console.log(registration);})
+      .catch(function(err){console.log(err);})
+  } 
+})
