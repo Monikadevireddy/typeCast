@@ -8,7 +8,7 @@ $(document).ready(function () {
   $('ul.tabs').tabs();
   console.log("Loaded all libraries .. SUCCESS");
 
-  typeCast("ruty");
+  typeCast("ru");
   
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
