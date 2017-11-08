@@ -201,14 +201,14 @@ function typeCast(layout) {
         'normal': [
           '` 1 2 3 4 5 6 7 8 9 0 - = \u0008',
           '\u0009 q w e r t y u i o p [ ] \\',
-          'a s d f g h j k l ; \' {enter}',
+          'a s d f g h j k l ; \' \u000A',
           '{shift} z x c v b n m , . / {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
         ],
         'shift': [
           '~ ! @ # $ % ^ & * ( ) _ + \u0008',
           '\u0009 Q W E R T Y U I O P { } |',
-          'A S D F G H J K L : " {enter}',
+          'A S D F G H J K L : " \u000A',
           '{shift} Z X C V B N M < > ? {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
         ]
@@ -220,14 +220,14 @@ function typeCast(layout) {
         'normal': [
           '` 1 2 3 4 5 6 7 8 9 0 - = \u0008',
           '\u0009 q w e r t y u i o p [ ] \\',
-          'a s d f g h j k l ; \' {enter}',
+          'a s d f g h j k l ; \' \u000A',
           '{shift} z x c v b n m , . / {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
         ],
         'shift': [
           '~ ! @ # $ % ^ & * ( ) _ + \u0008',
           '\u0009 Q W E R T Y U I O P { } |',
-          'A S D F G H J K L : " {enter}',
+          'A S D F G H J K L : " \u000A',
           '{shift} Z X C V B N M < > ? {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
         ]
@@ -257,14 +257,14 @@ function typeCast(layout) {
         'normal': [
           '` 1 2 3 4 5 6 7 8 9 0 - = \u0008',
           '\u0009 q w e r t y u i o p [ ] \\',
-          'a s d f g h j k l ; \' {enter}',
+          'a s d f g h j k l ; \' \u000A',
           '{shift} z x c v b n m , . / {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
         ],
         'shift': [
           '~ ! @ # $ % ^ & * ( ) _ + \u0008',
           '\u0009 Q W E R T Y U I O P { } |',
-          'A S D F G H J K L : " {enter}',
+          'A S D F G H J K L : " \u000A',
           '{shift} Z X C V B N M < > ? {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
         ]
@@ -293,14 +293,14 @@ function typeCast(layout) {
         'normal': [
           "\u00b2 & \u00e9 \" ' ( - \u00e8 _ \u00e7 \u00e0 ) = \u0008",
           "\u0009 a z e r t y u i o p ^ $",
-          "q s d f g h j k l m  \u00f9 * {enter}",
+          "q s d f g h j k l m  \u00f9 * \u000A",
           "{shift} < w x c v b n , ; : ! {shift}",
           "{accept} {alt} {space} {alt} {cancel}"
         ],
         'shift': [
           "{sp:1} 1 2 3 4 5 6 7 8 9 0 \u00b0 + \u0008",
           "\u0009 A Z E R T Y U I O P \u00a8 \u00a3",
-          "Q S D F G H J K L M % \u00b5 {enter}",
+          "Q S D F G H J K L M % \u00b5 \u000A",
           "{shift} > W X C V B N ? . / \u00a7 {shift}",
           "{accept} {alt} {space} {alt} {cancel}"
         ]
