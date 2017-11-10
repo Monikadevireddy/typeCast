@@ -56,6 +56,13 @@ function typeCast(layout) {
   //Global switch for the keyboard
 
   function init() {
+    // $(window).on('keydown','keydownHandler');
+    // $(window).on('keypress','keypressHandler'); 
+    // $(window).on('keyup','keyupHandler');
+    
+    // $(window).keypress(keypressHandler);
+    // $(window).keyup(keyupHandler);
+
     window.addEventListener("keydown", keydownHandler, false);
     window.addEventListener("keypress", keypressHandler, false);
     window.addEventListener("keyup", keyupHandler, false);
@@ -211,6 +218,13 @@ function typeCast(layout) {
           'A S D F G H J K L : " \u000A',
           '{shift} Z X C V B N M < > ? {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
+        ],
+        'caps': [
+          '` 1 2 3 4 5 6 7 8 9 0 - = \u0008',
+          '\u0009 Q W E R T Y U I O P [ ] \\',
+          'A S D F G H J K L ; \' \u000A',
+          '{shift} Z X C V B N M , . / {shift}',
+          '{accept} {alt} {space} {alt} {cancel}'
         ]
 
       },
@@ -229,6 +243,13 @@ function typeCast(layout) {
           '\u0009 Q W E R T Y U I O P { } |',
           'A S D F G H J K L : " \u000A',
           '{shift} Z X C V B N M < > ? {shift}',
+          '{accept} {alt} {space} {alt} {cancel}'
+        ],
+        'caps': [
+          '` 1 2 3 4 5 6 7 8 9 0 - = \u0008',
+          '\u0009 Q W E R T Y U I O P [ ] \\',
+          'A S D F G H J K L ; \' \u000A',
+          '{shift} Z X C V B N M , . / {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
         ]
 
@@ -249,26 +270,34 @@ function typeCast(layout) {
           'A S D F G H J K L : " \u000A',
           '{shift} Z X C V B N M < > ? {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
-        ]
-      },
-      'en-GB': {
-        'name': 'en-GB',
-        'lang': ['all'],
-        'normal': [
-          '` 1 2 3 4 5 6 7 8 9 0 - = \u0008',
-          '\u0009 q w e r t y u i o p [ ] \\',
-          'a s d f g h j k l ; \' \u000A',
-          '{shift} z x c v b n m , . / {shift}',
-          '{accept} {alt} {space} {alt} {cancel}'
         ],
-        'shift': [
-          '~ ! @ # $ % ^ & * ( ) _ + \u0008',
-          '\u0009 Q W E R T Y U I O P { } |',
-          'A S D F G H J K L : " \u000A',
-          '{shift} Z X C V B N M < > ? {shift}',
+        'caps': [
+          '` 1 2 3 4 5 6 7 8 9 0 - = \u0008',
+          '\u0009 Q W E R T Y U I O P [ ] \\',
+          'A S D F G H J K L ; \' \u000A',
+          '{shift} Z X C V B N M , . / {shift}',
           '{accept} {alt} {space} {alt} {cancel}'
         ]
       },
+      // Any further user layout can be added as below
+      // 'en-GB': {
+      //   'name': 'en-GB',
+      //   'lang': ['all'],
+      //   'normal': [
+      //     '` 1 2 3 4 5 6 7 8 9 0 - = \u0008',
+      //     '\u0009 q w e r t y u i o p [ ] \\',
+      //     'a s d f g h j k l ; \' \u000A',
+      //     '{shift} z x c v b n m , . / {shift}',
+      //     '{accept} {alt} {space} {alt} {cancel}'
+      //   ],
+      //   'shift': [
+      //     '~ ! @ # $ % ^ & * ( ) _ + \u0008',
+      //     '\u0009 Q W E R T Y U I O P { } |',
+      //     'A S D F G H J K L : " \u000A',
+      //     '{shift} Z X C V B N M < > ? {shift}',
+      //     '{accept} {alt} {space} {alt} {cancel}'
+      //   ]
+      // },
       'ru': {
         "name": "ms-Russian",
         "lang": ["ru"],
@@ -335,6 +364,31 @@ function typeCast(layout) {
           "{accept} {space} {cancel}"
         ]
       },
+      "rug": {
+        "name": "Google-Russian",
+        "lang": ["ru"],
+        "normal": [
+          "\u0451 1 2 3 4 5 6 7 8 9 0 - = \u0008",
+          "\u0009 \u0439 \u0446 \u0443 \u043a \u0435 \u043d \u0433 \u0448 \u0449 \u0437 \u0445 \u044a \\",
+          "\u0444 \u044b \u0432 \u0430 \u043f \u0440 \u043e \u043b \u0434 \u0436 \u044d \u000D",
+          "{shift} \u044f \u0447 \u0441 \u043c \u0438 \u0442 \u044c \u0431 \u044e . {shift}",
+          "{accept} {space} {cancel}"
+        ],
+        "shift": [
+          "\u0401 ! \" \u2116 ; % : ? * ( ) _ + \u0008",
+          "\u0009 \u0419 \u0426 \u0423 \u041a \u0415 \u041d \u0413 \u0428 \u0429 \u0417 \u0425 \u042a /",
+          "\u0424 \u042b \u0412 \u0410 \u041f \u0420 \u041e \u041b \u0414 \u0416 \u042d \u000D",
+          "{shift} / \u042f \u0427 \u0421 \u041c \u0418 \u0422 \u042c \u0411 \u042e , {shift}",
+          "{accept} {space} {cancel}"
+        ],
+        'caps': [
+          "\u0451 1 2 3 4 5 6 7 8 9 0 - = \u0008",
+          "\u0009 \u0419 \u0426 \u0423 \u041a \u0415 \u041d \u0413 \u0428 \u0429 \u0417 \u0425 \u042a /",
+          "\u0424 \u042b \u0412 \u0410 \u041f \u0420 \u041e \u041b \u0414 \u0416 \u042d \u000D",
+          "{shift} / \u042f \u0427 \u0421 \u041c \u0418 \u0422 \u042c \u0411 \u042e , {shift}",
+          "{accept} {space} {cancel}"
+        ]
+      },
       "ruty": {
         "name": "ms-Russian (Typewriter)",
         "lang": ["ru"],
@@ -351,7 +405,40 @@ function typeCast(layout) {
           "\u0424 \u042b \u0412 \u0410 \u041f \u0420 \u041e \u041b \u0414 \u0416 \u042d \u000D",
           "{shift} ( \u042f \u0427 \u0421 \u041c \u0418 \u0422 \u042c \u0411 \u042e / {shift}",
           "{accept} {space} {cancel}"
+        ],
+        'caps' : [
+          "| \u2116 - / \" : , . _ ? % ! ; \u0008",
+          "\u0009 \u0419 \u0426 \u0423 \u041a \u0415 \u041d \u0413 \u0428 \u0429 \u0417 \u0425 \u042a (",
+          "\u0424 \u042b \u0412 \u0410 \u041f \u0420 \u041e \u041b \u0414 \u0416 \u042d \u000D",
+          "{shift} ( \u042f \u0427 \u0421 \u041c \u0418 \u0422 \u042c \u0411 \u042e / {shift}",
+          "{accept} {space} {cancel}"
         ]
+      },
+      "rutyg": {
+        "name": "Google Russian (Typewriter)",
+        "lang": ["ru"],
+        "normal": 
+        [
+          "ю 1 2 3 4 5 6 7 8 9 0 - ч \u0008",
+          "\u0009 я в е р т ы у и о п ш щ э",
+          "а с д ф г х й к л ; ' \u000D",
+          "{shift} з ь ц ж б н м , . / {shift}",
+          "{accept} {space} {cancel}"
+        ],
+        "shift": [
+          "ю ! @ ё Ё ъ Ъ & * ( ) _ Ч \u0008",
+          "\u0009 Я В Е Р Т Ы У И О П Ш Щ Э",
+          "А С Д Ф Г Х Й К Л : \" \u000D",
+          "{shift} З Ь Ц Ж Б Н М < > ? {shift}",
+          "{accept} {space} {cancel}"
+        ],
+        'caps':[
+          "ю 1 2 3 4 5 6 7 8 9 0 - ч \u0008",
+          "\u0009 Я В Е Р Т Ы У И О П Ш Щ Э",
+          "А С Д Ф Г Х Й К Л : \" \u000D",
+          "{shift} З Ь Ц Ж Б Н М < > ? {shift}",
+          "{accept} {space} {cancel}"
+        ]      
       },
       "fr": {
         'name': 'french-azerty-1',
@@ -421,7 +508,7 @@ function typeCast(layout) {
 
     //cases when caps lock is on
     else if (inp.capsKey) {
-      indx = getIndexOfChar(user.shift, inp.key);
+      indx = getIndexOfChar(user.caps, inp.key);
 
       if (!indx) {
 
@@ -430,7 +517,7 @@ function typeCast(layout) {
         let row = indx[0];
         let pos = indx[1];
 
-        out = target.shift[row][pos];
+        out = target.caps[row][pos];
 
       }
     }
