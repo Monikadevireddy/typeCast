@@ -7,7 +7,7 @@
   <p align="center">
     typeCast is a russian keyboard mapper to US keyboard layout, that can be extended to other user layouts and other target languages.
     <br>
-    <a href="https://dnymic.github.io/typeCast/#docs"><strong>-- Browse the docs --</strong></a>
+    <a href="https://dnymic.github.io/typeCast/#home"><strong>-- Browse the docs --</strong></a>
     <br>
     <br>
     
