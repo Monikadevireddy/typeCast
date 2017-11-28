@@ -26,7 +26,7 @@
 
 
 ## Documentation
-The documentation can be found at <https://dnymic.github.io/typeCast/#docs>. 
+The documentation can be found at <https://dnymic.github.io/typeCast/#home>. 
 
 Run these commands to set up locally:
 1 Way using git
