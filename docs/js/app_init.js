@@ -9,10 +9,13 @@ $(document).ready(function () {
   console.log("Loaded all libraries .. SUCCESS");
 
   typeCast("rug");
+  typeCast
   // typeCast("rutyg"); -- the other similar to google typewriter layout refer th imgs for the layout pictures.
 
 
-  
-
 
 })
+
+// $( document ).ajaxError(function( event, request, settings ) {
+//   $( "body" ).append( "<li>Error requesting page " + settings.url + "</li>" );
+// });

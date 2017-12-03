@@ -9,8 +9,8 @@
 function typeCast(layout) {
 
 
-  Materialize.toast("Target set to : " + layout, 3000, 'orange');
-  Materialize.toast("Press Esc to toggle keyboard", 3000, );
+  Materialize.toast("Target set to : " + layout, 3000,"rounded orange");
+  Materialize.toast("Press Esc to toggle keyboard", 3000,"rounded" );
 
 
 
@@ -464,23 +464,24 @@ function typeCast(layout) {
     
     //Use ajax call to retrive layout
     //A better way to get the layout from a server
-    let temp = $.ajax({
-    dataType: "json",
-    url: "http://localhost:3000/layout",
-    data: {
-      name: lang
-    },
-    success: function( result ) {
-       console.log("Layout read as AJAX ...success");
-    },
-    complete: function(data){
-      tLayout = (data.responseJSON);
+    // try
+    // { 
+    $.ajax({
+          dataType: "json",
+          url: "http://localhost:3000/layout",
+          data: {
+            name: lang
+          },
+          success: function( result ) {
+            console.log("Layout read as AJAX ...success");
+          },
+          complete: function(data){
+            // tLayout = (data.responseJSON);
     }
   });
- 
-
-
-
+  // }catch(err){
+  //   $( "body" ).append( "<li>Error requesting page " + settings.url + "</li>" );
+  // }
   };
 
 

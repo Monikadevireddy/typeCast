@@ -19,7 +19,7 @@ app.get('/', function (req, res, next) {
 
 //To enable CORS
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:8080"); //Change to client address calling this service
+  res.header("Access-Control-Allow-Origin", URL); //Change to client address calling this service
   // res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
