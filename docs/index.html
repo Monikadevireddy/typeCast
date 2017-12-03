@@ -14,7 +14,8 @@
 
 
   <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+  <!-- <script src="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script> -->
   <script src="js/materialize.min.js"></script>
 
 
@@ -96,11 +97,11 @@
 
 
 
-        <div class="section">
+        <div class="section ui-content">
           <h5>Question 1</h5>
           <div class="row">
             <div class="col s12">The name of a thing in russian is:
-              <div class="input-field inline">
+              <div class="input-field inline ui-field-contain">
 
 
                 <!-- input element 'input' -->
@@ -113,88 +114,24 @@
         </div>
 
 
-        <div class="section">
+        <div class="section ui-content">
           <h5>Question 2</h5>
           <p> Write a sentence in russian below.</p>
           <p lang="ru">Напишите предложение на русском языке ниже.</p>
-          <div class="col s6">
+          <div class="col s6 ui-field-contain">
 
             <!-- multiline text area element 'message' -->
           
             <textarea name="message" id="text" rows="15" cols="100"></textarea>
-
-
-
-
           </div>
-
         </div>
 
 
 
-    </div>
 
-  </div>
 
 
   </div>
-
-
-
-
-
-
-  <!--  
-
-  <table border=0>
-    <tr>
-      <td align=left valign=top>
-
-        &nbsp;
-        <BUTTON TYPE=button ID="vkb_callVirt" onclick="blur(); vkb_start(event);" title="Show/change layout; input by mouse">
-          <span>
-            <IMG SRC="vk/vkb/keys02.png">
-          </span>
-        </BUTTON>
-      </td>
-      <td>
-        &nbsp;
-      </td>
-      <td bgColor=#CCCCCC style='PADDING-RIGHT: 4px; PADDING-LEFT: 4px;'>
-        <SMALL>"Cyrillic via
-          <u>keyboard</u>" mode
-          <B>:</B>
-        </SMALL>
-        <NOBR>
-          <SMALL>
-            <INPUT TYPE="radio" NAME="vkb_fromKbd" VALUE="On" CHECKED onclick="vkb_switchMode()">
-            <u>On</u>&nbsp;
-            <INPUT TYPE="radio" NAME="vkb_fromKbd" VALUE="Off" onclick="vkb_switchMode()">
-            <u>Off</u>
-        </NOBR>
-        </SMALL>
-        <BR>
-        <SMALL>or
-          <font color='#FF00FF'>if cursor in input area</font>, switch using
-          <script type="text/javascript">vkb_Init(); document.write(vkb_keySwitch);</script></SMALL>
-      </td>
-    </tr>
-  </table>
- 
-
-  </FORM>
-  <P>
- -->
-
-
-
-
-
-
-
-
-
-
   </div>
 </body>
 

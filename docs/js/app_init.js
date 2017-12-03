@@ -11,4 +11,8 @@ $(document).ready(function () {
   typeCast("rug");
   // typeCast("rutyg"); -- the other similar to google typewriter layout refer th imgs for the layout pictures.
 
+
+  
+
+
 })
