@@ -25,6 +25,7 @@
 - Clone the repo: `git clone https://github.com/dnymic/typeCast.git`
 
 
+
 ## Install
 
 Run the command below to set up locally:
