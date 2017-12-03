@@ -98,8 +98,8 @@ Notice the way the unicode characters are escaped this can be of much help as en
           "{shift} ( \u042f \u0427 \u0421 \u041c \u0418 \u0422 \u042c \u0411 \u042e / {shift}",
           "{accept} {space} {cancel}"
         ]
-      },
-      ```
+      }
+```
 
 
 
