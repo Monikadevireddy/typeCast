@@ -15,8 +15,8 @@
 
 ## Table of Contents
 - [Quickstart](#quickstart)
-- [Documentation](#documentation)
-- [Supported Browsers](#supported-browsers)
+- [Install](#Install)
+- [Configure](#Configure)
 - [Copyright and license](#copyright-and-license)
 
 ## Quickstart:
@@ -25,7 +25,7 @@
 - Clone the repo: `git clone https://github.com/dnymic/typeCast.git`
 
 
-## Installation
+## Install
 
 Run the command below to set up locally:
 **Setup client App**
@@ -120,6 +120,7 @@ If the character you entered supports lower/upper case, it will get automaticall
 
 In order to render characters from different languages part of UTF-8 encoding, you should escape them accordingly. You can check English-Russian layout above for example.
 
+
 2) Alternatively if there is a big list of layouts the performance can be improved by loading only the required layout as a ajax request refer to /server/server.js for an example implementation for Node server.
 
 To run the server:
@@ -129,6 +130,7 @@ node ./server
 ```
 
 **Contribution**
+
 Please feel free to fork this repo.
 
 
