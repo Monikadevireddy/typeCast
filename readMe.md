@@ -37,11 +37,7 @@ cd docs
 node .\client
 ```
 to run a local server for hosting the HTML.
-
-Take note on the loading order of the Script files.
-
-
-Then add below your **jQuery** and **jQuery UI** imports the following HTML:
+Take note on the loading order of the script files.
 
 
 ##  Configure and run
